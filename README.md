@@ -48,13 +48,13 @@ However, on the **adm2 level**, the correlation between **density** and **popula
 
 ![](Aze_BrPlt_LgPp19-Dnsty.png)
 
-As can be seen in the overlaps of the _histogram_ and the _probability density function_ (pdf) of density and the logarithm of population (in which case makes the plot more interpretable), the density reaches its maximum long before the log(pop19) does. Such outcome could be caused be the large areas of populous adm2s (such as _Baku City_) or limited areas of the adm2s result in high density with moderate population. Either way, it can be concluded that Azerbaijan shows various patterns of relationship between population and density.
+As can be seen in the overlay of the _histogram_ and the _probability density function_ (pdf) of **density** and the **logarithm of population** (in which case makes the plot more interpretable), the density reaches its maximum long before the log(pop19) does. Such outcome could be caused be the large areas of populous adm2s (such as _Baku City_) or limited areas of the adm2s result in high density with moderate population. Either way, it can be concluded that Azerbaijan shows various patterns of relationship between population and density.
 
 In addition, the correlation between **nighttime light** (NTL) and **population** also provides useful information:
 
 ![](Aze_BrPlt_NTL-Dnsty.png)
 
-Surprisingly
+Similarly, **logarithm of population** is used to provide sonsistency and interpratability, and the similar shape of the overlay suggests the positive correlation between density and NTL. Based on this overlay, it also further confirms the conclusion drawn from the former overlay, that populous adm2s might be generally large, while some adm2s covering smaller areas might produce higher density.
 
 
 
