@@ -16,7 +16,7 @@ It is worth mentioning that **_Lankaran_** consists of 2 parts and one large isl
 
 According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in 2019 is 10,115,498 (10 million). And population distribution on amd2 level is presented in the following plot:
 
-![](Aze_Pop19_Adm2 01.png)
+![alt text](Aze_Pop19_Adm2 01.png)
 
 The 3-dimensional versions of the plot:
 
