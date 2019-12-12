@@ -4,7 +4,7 @@ The Republic of Azerbaijan is a country lies in the crossroads of Eastern Europe
 
 ## Political Subdivisons
 
-Azerbaijan has **10 first level administrative subdivisons (adm1)** and **79 second level administrative subdivisons (adm2)**, and the subdivsions **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
+Azerbaijan has **10 _first level administrative subdivisons_ (adm1)** and **79 _second level administrative subdivisons_ (adm2)**, and the subdivsions **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
 
 ![](Aze_Subdiv.png)
 
@@ -34,7 +34,22 @@ Based on these plots it can be observed that the population in almost all adm2s 
 
 ### Density, Nighttime Lights, and Correlations
 
-Based on the following plots, the density seems to have positive correlation with population on the adm1 level:
+Based on the following plots, density seems to more or less follow a positive correlation with population on the adm1 level, that larger popluation seems to indicate higher density:
 
 ![](Aze_Pop19 & Den_Adm1.png)
+
+However, on the adm2 level, the correlation between density and population seems different:
+
+![](Aze_Br Plt_Log Pop19-Dnsty.png)
+
+As can be seen in the overlaps of the _histogram_ and the _probability density function_ (pdf) of density and the logarithm of population (in which case makes the plot more interpretable), the density reaches its maximum long before the log(pop19) does. Such outcome could be caused be the large areas of populous adm2s (such as _Baku City_ and _Lankaran_) or 
+
+
+
+
+
+
+
+
+
 
