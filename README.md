@@ -40,18 +40,21 @@ All in all, the population distribution of Azerbaijan follows the general trend 
 
 ### Density, Nighttime Lights, and Correlations
 
-Based on the following plots, density seems to more or less follow a positive correlation with population on the adm1 level, that larger popluation seems to indicate higher density:
+Based on the following plots, **density** seems to more or less follow a positive correlation with **population** on the **adm1 level**, that larger popluation seems to indicate higher density:
 
 ![](Aze_Pp19&Den_Adm1.png)
 
-However, on the adm2 level, the correlation between density and population seems different:
+However, on the **adm2 level**, the correlation between **density** and **population** seems different:
 
 ![](Aze_BrPlt_LgPp19-Dnsty.png)
 
 As can be seen in the overlaps of the _histogram_ and the _probability density function_ (pdf) of density and the logarithm of population (in which case makes the plot more interpretable), the density reaches its maximum long before the log(pop19) does. Such outcome could be caused be the large areas of populous adm2s (such as _Baku City_) or limited areas of the adm2s result in high density with moderate population. Either way, it can be concluded that Azerbaijan shows various patterns of relationship between population and density.
 
+In addition, the correlation between **nighttime light** (NTL) and **population** also provides useful information:
 
+![](Aze_BrPlt_NTL-Dnsty.png)
 
+Surprisingly, 
 
 
 
