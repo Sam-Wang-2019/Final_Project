@@ -36,11 +36,11 @@ Based on these plots it can be observed that the population in almost all adm2s 
 
 Based on the following plots, density seems to more or less follow a positive correlation with population on the adm1 level, that larger popluation seems to indicate higher density:
 
-![](Aze_Pop19 & Den_Adm1.png)
+![](Aze_Pop19&Den_Adm1.png)
 
 However, on the adm2 level, the correlation between density and population seems different:
 
-![](Aze_Br Plt_Log Pop19-Dnsty.png)
+![](Aze_BrPlt_LogPop19-Dnsty.png)
 
 As can be seen in the overlaps of the _histogram_ and the _probability density function_ (pdf) of density and the logarithm of population (in which case makes the plot more interpretable), the density reaches its maximum long before the log(pop19) does. Such outcome could be caused be the large areas of populous adm2s (such as _Baku City_ and _Lankaran_) or 
 
