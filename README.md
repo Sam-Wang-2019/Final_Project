@@ -20,5 +20,5 @@ According to data from _Humanitarian Data Exchange_ (HDX), the total population 
 
 The population comparison on adm1 level and the the share of population of adm2s withing each adm1:
 
-![](Aze_Pop19_Adm2 02.png)
+![](Aze_Pop19_Adm2 01.png)
 
