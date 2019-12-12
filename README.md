@@ -12,7 +12,7 @@ Azerbaijan has **10 _first level administrative subdivisons_ (adm1)** and **79 _
 
 It is worth mentioning that **_Lankaran_** consists of 2 parts and one large island in the East, whose boundary is incorporated into the the adm2 boundary, and **_Lankaran City_** locates in the trapzoidal "gulf" on the Eastern boundary in the Southern part:
 
-
+![](Aze_Lankaran_Topo.png)
 
 In general, despite the simplified jagged coastline, the administrative subdivisons of Azerbaijan are normally distributed, except for the _Nakhchivan Autonomous Republic of Azerbaijan_ (_Nakhchivan_ in the plot), which is isolated from all other adm1s due historical conflicts between Azerbaijan and Armenia.
 
