@@ -4,7 +4,7 @@ The Republic of Azerbaijan is a country lies in the crossroads of Eastern Europe
 
 ## Political Subdivisons
 
-Azerbaijan has **10 first level administrative subdivisons (adm1)** and **79 second level administrative subdivisons (adm2)**, and the subdivsions **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plot:
+Azerbaijan has **10 first level administrative subdivisons (adm1)** and **79 second level administrative subdivisons (adm2)**, and the subdivsions **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
 
 ![](Aze_Subdiv.png)
 
@@ -32,5 +32,9 @@ The population comparison on adm1 level and the the share of population of adm2s
 
 Based on these plots it can be observed that the population in almost all adm2s are rather similar except for in adm1 _Absheron_. There, the population is exceptionally larger and among the four adm2s in the adm1, Baku City--the Capital--has much larger population than any other amd2s. It is reasonable that the capital is the most economically developed area in the country and thus has the largest population, and the large total population in surrounding adm2s could be explained by satellite cities with provide housing urban populations, and the influence and expansion of the urban area and economies in the capital.
 
+### Density, Nighttime Lights, and Correlations
 
+Based on the following plots, the density seems to have positive correlation with population on the adm1 level:
+
+![](Aze_Pop19 & Den_Adm1.png)
 
