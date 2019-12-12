@@ -6,3 +6,5 @@ The Republic of Azerbaijan is a country lies in the crossroads of Eastern Europe
 
 Azerbaijan has **10 first level administrative subdivisons (adm1)** and **79 second level administrative subdivisons (adm2)**, as shown in the following plot.
 
+![](Aze_Subdiv.png)
+
