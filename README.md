@@ -54,7 +54,7 @@ In addition, the correlation between **nighttime light** (NTL) and **population*
 
 ![](Aze_BrPlt_NTL-Dnsty.png)
 
-Surprisingly, 
+Surprisingly
 
 
 
