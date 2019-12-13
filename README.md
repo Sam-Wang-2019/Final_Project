@@ -113,7 +113,7 @@ The calculation of the sum of the absolute values of the differences between eac
 
 ![](MdlRslt_Diff_Log&Mean&Sum.png)
 
-Based on the plots and the calculation, the **"Logpop"** model is the least different from the actual population. However, with the total absolute difference up to 9,594,424 (9.59 million), the discrepancy is still definately huge for country with only about 10 million population, not mentioning possible larger errors in smaller areas. 
+Based on the plots and the calculation, the **"Sums"** model is the least different from the actual population. However, with the total absolute difference up to 8,596,331 (8.60 million), the discrepancy is still definately huge for country with only about 10 million population. 
 
 Therefore, if more sophisticated model, which taking more variations into accout, are employed, the accuracy of prdiction might be improved. 
 
