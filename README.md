@@ -34,15 +34,15 @@ The population comparison on adm1 level and the the share of population of adm2s
 
 ![](Aze_Pop19_Adm202.png)
 
-Based on these plots it can be observed that the population in almost all adm2s are rather similar except for in adm1 _Absheron_. There, the population is exceptionally larger and among the four adm2s in the adm1, Baku City--the Capital--has much larger population than any other amd2s. It is reasonable that the capital is the most economically developed area in the country and thus has the largest population, and the large total population in surrounding adm2s could be explained by satellite cities with provide housing urban populations, and the influence and expansion of the urban area and economies in the capital.
+Based on these plots, it can be observed that the population in almost all adm2s are rather similar except for in adm1 _Absheron_. There, the population is exceptionally larger and among the four adm2s in the adm1, Baku City--the Capital--has much larger population than any other amd2s. It is reasonable that the capital is the most economically developed area in the country and thus has the largest population, and the large total population in surrounding adm2s could be explained by satellite cities with provide housing urban populations, and the influence and expansion of the urban area and economies in the capital.
 
 All in all, the population distribution of Azerbaijan follows the general trend that populations concentrate in major cities (especially the capital), and spread thin in the vast rural areas.
 
-To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include vegetation cover, urban cover, topograph, water body, slope, **nighttime light** (NTL), and so on. The regression line and confidence interval are shown as follow:
+To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include vegetation coverage, urban coverage, topograph, water body, slope, **nighttime light** (NTL), and so on. The _regression line_ and _confidence interval_ are shown as follow:
 
 ![](Aze_Crltn_Fttd-Rsdl.png)
 
-
+The plot shows a very wide _confidence interval_
 
 ### Density, Nighttime Lights, and Correlations
 
