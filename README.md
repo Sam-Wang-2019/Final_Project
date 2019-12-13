@@ -16,11 +16,11 @@ It is worth mentioning that **_Lankaran_** consists of 2 parts, with penisulas a
 
 In general, despite the simplified jagged coastline, the administrative subdivisons of Azerbaijan are normally distributed, except for the _Nakhchivan Autonomous Republic of Azerbaijan_ (_Nakhchivan_ in the plot), which is isolated from all other adm1s due historical conflicts between Azerbaijan and Armenia.
 
-## Population Distribution (Azerbaijan)
+## Population (Azerbaijan)
 
-### Population and Modeling
+### Population and Distribution
 
-According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in 2019 is 10,115,498 (10 million). And population distribution on adm2 level is presented in the following plot:
+According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in **2019** (pop19) is 10,115,498 (10 million). And population distribution on adm2 level is presented in the following plot:
 
 ![](Aze_Pop19_Adm201.png)
 
@@ -38,23 +38,13 @@ Based on these plots, it can be observed that the population in almost all adm2s
 
 All in all, the population distribution of Azerbaijan follows the general trend that populations concentrate in major cities (especially the capital), and spread thin in the vast rural areas.
 
-To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include vegetation coverage, urban coverage, topograph, water body, slope, **nighttime light** (NTL), and so on. The **regression line** and **confidence interval** are shown as follow:
-
-![](Aze_Crltn_Fttd-Rsdl.png)
-
-![](Aze_Pop_Rsdl-....png)
-
-The plot shows a very wide **confidence interval** in the middle, indicating low accuracy. The reason is that, all dots, except the one representing _Baku City_, cluster on the left side of the plot. Some of them are much higher in the plot than others, causing the **regression line** bowing upward in the middle.
-
-To summarize, the linear model does not seem to able to imply how the variables influence population distribution. Thus, the variables have complicated correlationhips with population distribution and therefore requires more complex models than linear. 
-
 ### Density, Nighttime Lights, and Correlations
 
-Based on the following plots, **density** seems to more or less follow a positive correlation with **population** on the adm1 level, that larger popluation seems to indicate higher density:
+On adm1 level, population density and its correaltionship with population can be deduced from the following plots:
 
 ![](Aze_Pp19&Den_Adm1.png)
 
-However, on the adm2 level, the correlation between **density** and **population** seems different:
+Based on the following plots, **density** seems to more or less follow a positive correlation with **population** on the adm1 level, that larger popluation seems to indicate higher density. However, on the adm2 level, the correlation between **density** and **population** seems different:
 
 ![](Aze_BrPlt_LgPp19-Dnsty.png)
 
@@ -66,16 +56,32 @@ In addition, the correlation between **NTL** and **population** also provides us
 
 Similarly, **logarithm of population** is used to provide sonsistency and interpratability, and the similar shape of this overlay suggests the positive correlation between **density** and **NTL**. Besideds, this overlay also further confirms the conclusion drawn from the former overlay, that populous adm2s might be generally large, while some adm2s covering smaller areas might produce very high density.
 
+###  Modeling of Population and Distribution
+
+To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include various vegetation coverage, urban coverage, topograph, water body, slope, **nighttime light** (NTL), and so on. The **regression line** and **confidence interval** are shown as follow:
+
+![](Aze_Crltn_Fttd-Rsdl.png)
+
+![](Aze_Pop_Rsdl-....png)
+
+The plot shows a very wide **confidence interval** in the middle, indicating low accuracy. The reason for it is that all dots, except the one representing _Baku City_, cluster on the left side of the plot. Some of them are much higher in the plot than others, causing the **regression line** bowing upward in the middle.
+
+To summarize, the linear model does not seem to able to imply how the variables influence population distribution. Thus, the variables have complicated correlationhips with population distribution and therefore requires more complex models than linear. 
+
+Similarly, for the purpose of predicting the population nationwide, linear models are used. However, in this case, three approaches are used: one based on the **sum** of geospatial covariates per adm2 ("Sums"), another on the **mean** ("Means"), and the last one on **mean** as well but use the **logarithm of population** as the response ("Logpop"). It is worth mentioning that in this case population data in **2015** rather than **2019** is used, for the reason that better accuarcy of prediction can be achieved since other covariates are all 2015 data. The results are shown as follows.
+
+"Sums":
+
+![](Aze_PpEst_Sum.png)
 
 
+"Means":
 
+![](Aze_PpEst_Mean.png)
 
+"Logpop":
 
-
-
-
-
-
+![](Aze_PpEst_Log.png)
 
 
 
