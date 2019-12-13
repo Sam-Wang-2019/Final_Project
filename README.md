@@ -4,7 +4,7 @@ The Republic of Azerbaijan is a country lies in the crossroads of Eastern Europe
 
 ## Political Subdivisons
 
-Azerbaijan has **10 _first level administrative subdivisons_ (adm1)** and **79 _second level administrative subdivisons_ (adm2)**, and the subdivsions **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
+Azerbaijan has 10 **first level administrative subdivisons (adm1)** and 79 **second level administrative subdivisons** (adm2), and the subdivsions **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
 
 ![](Aze_Subdiv.png)
 
@@ -20,7 +20,7 @@ In general, despite the simplified jagged coastline, the administrative subdivis
 
 ### Population and Modeling
 
-According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in 2019 is **10,115,498** (10 million). And population distribution on adm2 level is presented in the following plot:
+According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in 2019 is 10,115,498 (10 million). And population distribution on adm2 level is presented in the following plot:
 
 ![](Aze_Pop19_Adm201.png)
 
@@ -38,19 +38,23 @@ Based on these plots, it can be observed that the population in almost all adm2s
 
 All in all, the population distribution of Azerbaijan follows the general trend that populations concentrate in major cities (especially the capital), and spread thin in the vast rural areas.
 
-To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include vegetation coverage, urban coverage, topograph, water body, slope, **nighttime light** (NTL), and so on. The _regression line_ and _confidence interval_ are shown as follow:
+To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include vegetation coverage, urban coverage, topograph, water body, slope, **nighttime light** (NTL), and so on. The **regression line** and **confidence interval** are shown as follow:
 
 ![](Aze_Crltn_Fttd-Rsdl.png)
 
-The plot shows a very wide _confidence interval_
+![](Aze_Pop_Rsdl-....png)
+
+The plot shows a very wide **confidence interval** in the middle, indicating low accuracy. The reason is that, all dots, except the one representing _Baku City_, cluster on the left side of the plot. Some of them are much higher in the plot than others, causing the **regression line** bowing upward in the middle.
+
+To summarize, the linear model does not seem to able to imply how the variables influence population distribution. Thus, the variables have complicated correlationhips with population distribution and therefore requires more complex models than linear. 
 
 ### Density, Nighttime Lights, and Correlations
 
-Based on the following plots, **density** seems to more or less follow a positive correlation with **population** on the **adm1 level**, that larger popluation seems to indicate higher density:
+Based on the following plots, **density** seems to more or less follow a positive correlation with **population** on the adm1 level, that larger popluation seems to indicate higher density:
 
 ![](Aze_Pp19&Den_Adm1.png)
 
-However, on the **adm2 level**, the correlation between **density** and **population** seems different:
+However, on the adm2 level, the correlation between **density** and **population** seems different:
 
 ![](Aze_BrPlt_LgPp19-Dnsty.png)
 
