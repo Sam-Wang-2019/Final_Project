@@ -18,7 +18,7 @@ In general, despite the simplified jagged coastline, the administrative subdivis
 
 ## Population Distribution (Azerbaijan)
 
-### Population
+### Population and Modeling
 
 According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in 2019 is **10,115,498** (10 million). And population distribution on adm2 level is presented in the following plot:
 
@@ -36,7 +36,13 @@ The population comparison on adm1 level and the the share of population of adm2s
 
 Based on these plots it can be observed that the population in almost all adm2s are rather similar except for in adm1 _Absheron_. There, the population is exceptionally larger and among the four adm2s in the adm1, Baku City--the Capital--has much larger population than any other amd2s. It is reasonable that the capital is the most economically developed area in the country and thus has the largest population, and the large total population in surrounding adm2s could be explained by satellite cities with provide housing urban populations, and the influence and expansion of the urban area and economies in the capital.
 
-All in all, the population distribution of Azerbaijan follows the general trend that large populations concentrate in major cities (especially the capital), and spread thin in the vast rural areas.
+All in all, the population distribution of Azerbaijan follows the general trend that populations concentrate in major cities (especially the capital), and spread thin in the vast rural areas.
+
+To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include vegetation cover, urban cover, topograph, water body, slope, **nighttime light** (NTL), and so on. The regression line and confidence interval are shown as follow:
+
+![](Aze_Crltn_Fttd-Rsdl.png)
+
+
 
 ### Density, Nighttime Lights, and Correlations
 
@@ -50,7 +56,7 @@ However, on the **adm2 level**, the correlation between **density** and **popula
 
 As can be seen in the overlay of the _histogram_ and the _probability density function_ (pdf) of **density** and the **logarithm of population** (in which case makes the plot more interpretable), the density reaches its maximum long before the log(pop19) does. Such outcome could be caused be the large areas of populous adm2s (such as _Baku City_) or limited areas of the adm2s result in high density with moderate population. Either way, it can be concluded that Azerbaijan shows various patterns of relationship between population and density.
 
-In addition, the correlation between **nighttime light** (NTL) and **population** also provides useful information:
+In addition, the correlation between **NTL** and **population** also provides useful information:
 
 ![](Aze_BrPlt_NTL-Dnsty.png)
 
