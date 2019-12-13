@@ -113,7 +113,7 @@ The calculation of the sum of the absolute values of the differences between eac
 
 ![](MdlRslt_Diff_Log&Mean&Sum.png)
 
-
+ads
 
 
 
