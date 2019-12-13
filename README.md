@@ -83,12 +83,30 @@ Similarly, for the purpose of predicting the population nationwide, linear model
 
 ![](Aze_PpEst_Log.png)
 
+After obtaining these plots, they are compared with the real population data. The differences is then calculated.
 
+Difference of "Sums" ("Diffsums"):
 
+![](Aze_Pop_EstDiff_Sum.png)
 
+The 3-dimentional version:
 
+![](Aze_Pop_EstDiff_Sum_3D.png)
 
+Difference of "Means" ("Diffmeans"):
 
+![](Aze_Pop_EstDiff_Mean.png)
 
+The 3-dimentional version:
+
+![](Aze_Pop_EstDiff_Mean_3D.png)
+
+Difference of "Logpop" ("Difflogpop"):
+
+![](Aze_Pop_EstDiff_Log.png)
+
+The 3-dimentional version:
+
+![](Aze_Pop_EstDiff_Log_3D.png)
 
 
