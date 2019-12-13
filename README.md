@@ -20,7 +20,7 @@ In general, despite the simplified jagged coastline, the administrative subdivis
 
 ### Population and Distribution
 
-According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in **2019** (pop19) is 10,115,498 (10 million). And population distribution on adm2 level is presented in the following plot:
+According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in **2019** (pop19) is 10,115,498 (10.12 million). And population distribution on adm2 level is presented in the following plot:
 
 ![](Aze_Pop19_Adm201.png)
 
@@ -56,7 +56,7 @@ In addition, the correlation between **NTL** and **population** also provides us
 
 Similarly, **logarithm of population** is used to provide sonsistency and interpratability, and the similar shape of this overlay suggests the positive correlation between **density** and **NTL**. Besideds, this overlay also further confirms the conclusion drawn from the former overlay, that populous adm2s might be generally large, while some adm2s covering smaller areas might produce very high density.
 
-###  Modeling of Population and Distribution
+###  Models of Population and Distribution and Validation
 
 To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include various vegetation coverage, urban coverage, topograph, water body, slope, **nighttime light** (NTL), and so on. The **regression line** and **confidence interval** are shown as follow:
 
@@ -66,7 +66,7 @@ To further investigate how population distribution is affected by various condit
 
 The plot shows a very wide **confidence interval** in the middle, indicating low accuracy. The reason for it is that all dots, except the one representing _Baku City_, cluster on the left side of the plot. Some of them are much higher in the plot than others, causing the **regression line** bowing upward in the middle.
 
-To summarize, the linear model does not seem to able to imply how the variables influence population distribution. Thus, the variables have complicated correlationhips with population distribution and therefore requires more complex models than linear. 
+To summarize, the linear model does not seem to able to imply how the variables influence population distribution. Thus, the variables have complicated correlationhips with population distribution and therefore more complex models could be used to diminish the errors. 
 
 Similarly, for the purpose of predicting the population nationwide, linear models are used. However, in this case, three approaches are used: one based on the **sum** of geospatial covariates per adm2 ("Sums"), another on the **mean** ("Means"), and the last one on **mean** as well but use the **logarithm of population** as the response ("Logpop"). It is worth mentioning that in this case population data in **2015** rather than **2019** is used, for the reason that better accuarcy of prediction can be achieved since other covariates are all 2015 data. The results are shown as follows.
 
@@ -113,7 +113,51 @@ The calculation of the sum of the absolute values of the differences between eac
 
 ![](MdlRslt_Diff_Log&Mean&Sum.png)
 
-ads
+Based on the plots and the calculation, the "Logpop" model is the least different from the actual population. However, with the total absolute difference up to 9,594,424 (9.59 million), the discrepancy is still definately huge for country with only about 10 million population, not mentioning possible larger errors in smaller areas. 
+
+Therefore, if more sophisticated model, which taking more variations into accout, are employed, the accuracy of prdiction might be improved. 
+
+## Population (_Lankaran_ and _Lankaran City_)
+
+The two Adm2s, based on _HDX_ data, have 216,384 (216 thousand) people in 2019. To specify, the much larger _Lankaran_ has 196,655 while _Lankaran City_ has 19,729. As the area of _Lankaran_ is about 111.5 times that of _Lankaran City_ (680,504 gridcells to 6097 gridcells), the population density in _Lankaran City_ is about 11.2 times that of _Lankaran_. The total populations, distributions, and most populous areas are ilustrated in following plots.
+
+Population and distribution of _Lankaran_:
+
+![](Aze_Pop19_L.png)
+
+The 3-dimentional version:
+
+![](Aze_Pop19_L_3D.png)
+
+Population and distribution of _Lankaran City_:
+
+![](Aze_Pop19_LC.png)
+
+The 3-dimentional version:
+
+![](Aze_Pop19_LC_3D.png)
+
+Population distribution of _Lankaran_ (based on satellite image):
+
+![](Aze_Pop19_L_Mpvw01.png)
+
+Because the northern part is scarcely populated comparing to the south as well as _Lankaran City_, a foucs on the populous southern part of _Lankaran_ (based on topography) would be more interpretable:
+
+![](Aze_Pop19_L_Mpvw02.png)
+
+Most populous central urban area of _Lankaran_ (based on the street layout):
+
+![](Aze_Pop19_L_Mpvw03.png)
+
+Population distribution of _Lankaran_ (based on topography):
+
+![](Aze_Pop19_LC_Mpvw01.png)
+
+Most populous central urban area of _Lankaran_ (based on the street layout):
+
+![](Aze_Pop19_LC_Mpvw02.png)
+
+
 
 
 
