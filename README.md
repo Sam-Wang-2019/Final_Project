@@ -50,7 +50,7 @@ Based on the following plots, **density** seems to more or less follow a positiv
 
 As can be seen in the overlay of the _histogram_ and the _probability density function_ (pdf) of **density** and the **logarithm of population** (in which case makes the plot more interpretable), the density reaches its maximum long before the log(pop19) does. Such outcome could be caused be the large areas of populous adm2s (such as _Baku City_) or limited areas of the adm2s result in high density with moderate population. Either way, it can be concluded that Azerbaijan shows various patterns of relationship between population and density.
 
-In addition, the correlation between **NTL** and **population** also provides useful information:
+In addition, the correlation between **nighttime light** (NTL) and **population** also provides useful information:
 
 ![](Aze_BrPlt_NTL-Dnsty.png)
 
@@ -58,7 +58,7 @@ Similarly, **logarithm of population** is used to provide sonsistency and interp
 
 ###  Models of Population and Distribution and Validation
 
-To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include various vegetation coverage, urban coverage, topograph, water body, slope, **nighttime light** (NTL), and so on. The **regression line** and **confidence interval** are shown as follow:
+To further investigate how population distribution is affected by various conditions, a linear model is used and inputs include various vegetation coverage, urban coverage, topograph, water body, slope, NTL, and so on. The **regression line** and **confidence interval** are shown as follow:
 
 ![](Aze_Crltn_Fttd-Rsdl.png)
 
@@ -113,13 +113,13 @@ The calculation of the sum of the absolute values of the differences between eac
 
 ![](MdlRslt_Diff_Log&Mean&Sum.png)
 
-Based on the plots and the calculation, the "Logpop" model is the least different from the actual population. However, with the total absolute difference up to 9,594,424 (9.59 million), the discrepancy is still definately huge for country with only about 10 million population, not mentioning possible larger errors in smaller areas. 
+Based on the plots and the calculation, the **"Logpop"** model is the least different from the actual population. However, with the total absolute difference up to 9,594,424 (9.59 million), the discrepancy is still definately huge for country with only about 10 million population, not mentioning possible larger errors in smaller areas. 
 
 Therefore, if more sophisticated model, which taking more variations into accout, are employed, the accuracy of prdiction might be improved. 
 
 ## Population (_Lankaran_ and _Lankaran City_)
 
-The two Adm2s, based on _HDX_ data, have 216,384 (216 thousand) people in 2019. To specify, the much larger _Lankaran_ has 196,655 while _Lankaran City_ has 19,729. As the area of _Lankaran_ is about 111.5 times that of _Lankaran City_ (680,504 gridcells to 6097 gridcells), the population density in _Lankaran City_ is about 11.2 times that of _Lankaran_. The total populations, distributions, and most populous areas are ilustrated in following plots.
+The two Adm2s, based on _HDX_ data, have 216,384 (216 thousand) people in 2019. To specify, the much larger _Lankaran_ has a **population** of 196,655 while _Lankaran City_ has 19,729. As the **area** of _Lankaran_ is about 111.5 times that of _Lankaran City_ (680,504 gridcells to 6097 gridcells), the **population density** in _Lankaran City_ is about 11.2 times that of _Lankaran_. The total populations, distributions, and most populous areas are ilustrated in following plots.
 
 Population and distribution of _Lankaran_:
 
@@ -157,20 +157,30 @@ Most populous central urban area of _Lankaran_ (based on the street layout):
 
 ![](Aze_Pop19_LC_Mpvw02.png)
 
-These interpretations of thes plots is consistent with the previous calculation, and indicate the general trend of population distribution, that people are highly concentrated in the coastal area in the southern part, and settlements expand inland.
+These interpretations of thes plots is consistent with the previous calculations, and indicate the general trend of population distribution, that people are highly concentrated in the coastal area in the southern part, and settlements expand inland.
 
 ## Urban areas, Road Network, and Healthcare Facilities and Accessibility (_Lankaran_ and _Lankaran City_).
 
-Based on the understanding of the Population in the area, provided by previous plots, the urban area is defined by areas with population density over 3,100,000, thus producing the following plots:
+Based on the understanding of the Population in the area, provided by previous plots, the **urban areas** are defined by two areas with population density over 3,100,000, which cover total areas of about 322.31 suqared kilometers, and consist 93,463 people in total.
+
+There are 265 **roads** in the two adm2s, including 92 primary roads, 71 secondary ones, and 102 tertiary ones. These three types of roads cover a total distance of 367.68 kilometers.
+
+There are 6 **healthcare facilities** in the area based on _HDX_ data (whose error will be indentified), including 2 hospitals (108,192 people per site on average), 3 pharmacies, 1 “doctors” (possibly clinic).
+
+With all these information, the following 3-dimensional plots are produced:
 
 ![](L&LC_HCA_3D01.png)
 
-a
+![](L&LC_HCA_3D02.png)
 
+From the plots, also with previous ones, it can be interpreted that topography has strong influence on **urban areas** in _Lankaran_ and _Lankaran City_. The populated areas concentrated in the costal plane between the Caspian Sea and the inland mountainous regions, where the terrain makes infrastructural constructions and economic development more convenient. The boundaries of the urban area are basically in consistent with the base of mountains and the coastline. Lying in the optimal place of settlement, the urban areas consists of about 57.03% of the total population while only covering 17.91% of total areas. The result is high urban population density of 709.86 people per quared kilometer, more than 3 times than the average density of total population.
 
+Besides, the distribution of road network also shows such influence. Roads, especially primary and secondary roads, mostly lie in the plane, and in mountainous areas roads tend to stretch along valleys. In general, road density is high in the plane, where most of the residents are.
 
+In addition, the 2-dimensional plot provides more clear information on road network and healthcare facilities:
 
+![](L&LC_HCA.png)
 
+As can be seen, one of the two hospitals and two of the three pharmacies are located near the most populous central urban area, which is reasonable. However, one hospital, one pharmacy, and one place with label “doctors” (possibly a clinic) appear to be off the center of another smaller urbanized area in the south. Actually, the hospital and pharmacy there even seems to be in the mountains without any primary, secondary, or tertiary roads connecting to it. Thus, the only easily accessed hospital would be likely to face a great number of patients every day, even more than the average value of 3 healthcare sites (2 hospitals and 1 clinic), which is 72,128, a very large number already.
 
-
-
+However, based on a brief research on _Google Maps_, about 10 hospitals exist in the two adm2s, with most located in the plane and none in the place of the "southern hospital" in the mountains as is shown in the plot. Therefore, it can be concluded that _HDX_ has an error in data, and in reality, healthcare facilities are very accessible in _Lankaran_ and _Lankaran City_ for most of population, except for very few living in the nothern part of _Lakaran_, or in the moutains where no road leads to.
