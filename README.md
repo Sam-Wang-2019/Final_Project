@@ -157,9 +157,13 @@ Most populous central urban area of _Lankaran_ (based on the street layout):
 
 ![](Aze_Pop19_LC_Mpvw02.png)
 
+These interpretations of thes plots is consistent with the previous calculation, and indicate the general trend of population distribution, that people are highly concentrated in the coastal area in the southern part, and settlements expand inland.
 
+## Urban areas, Road Network, and Healthcare Facilities and Accessibility (_Lankaran_ and _Lankaran City_).
 
+Based on the understanding of the Population in the area, provided by previous plots, the urban area is defined by areas with population density over 3,100,000, thus producing the following plots:
 
+![](L&LC_HCA_3D01.png)
 
 
 
