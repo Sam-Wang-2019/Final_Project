@@ -109,4 +109,20 @@ The 3-dimentional version:
 
 ![](Aze_Pop_EstDiff_Log_3D.png)
 
+The calculation of the sum of the absolute values of the differences between each model and the acutal pop15:
+
+![](MdlRslt_Diff_Log&Mean&Sum.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
