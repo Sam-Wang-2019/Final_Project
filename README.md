@@ -185,4 +185,4 @@ As can be seen, one of the two hospitals and two of the three pharmacies are loc
 
 However, based on a brief research on _Google Maps_, about 10 hospitals exist in the two adm2s, with most located in the plane and none in the place of the "southern hospital" in the mountains as is shown in the plot. Therefore, it can be concluded that _HDX_ has an error in data, and in reality, healthcare facilities are very accessible in _Lankaran_ and _Lankaran City_ for most of population, except for very few living in the nothern part of _Lakaran_, or in the moutains where no road leads to.
 asd
-as
+asd
