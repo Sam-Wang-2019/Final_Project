@@ -14,7 +14,7 @@ It is worth mentioning that **_Lankaran_** consists of 2 parts, with penisulas a
 
 ![](Aze_Lankaran_Topo.png)
 
-In general, despite the simplified jagged coastline, the administrative subdivisons of Azerbaijan are normally distributed, except for the _Nakhchivan Autonomous Republic of Azerbaijan_ (_Nakhchivan_ in the plot), which is isolated from all other adm1s due historical conflicts between Azerbaijan and Armenia.
+In general, the administrative subdivisons of Azerbaijan are normally distributed, except for the _Nakhchivan Autonomous Republic of Azerbaijan_ (_Nakhchivan_ in the plot) in the southwest, which is isolated from all other parts of the country due to conflicts in history with Armenia.
 
 ## Population (Azerbaijan)
 
