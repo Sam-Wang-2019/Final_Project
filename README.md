@@ -20,7 +20,7 @@ In general, the administrative subdivisons of Azerbaijan are normally distribute
 
 ### Population and Distribution
 
-According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in **2019** (pop19) is 10,115,498 (10.12 million). And population distribution on adm2 level is presented in the following plot:
+According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in **2019** (pop19) is 10,115,498 (about 10.12 million). And population distribution on adm2 level is presented in the following plot:
 
 ![](Aze_Pop19_Adm201.png)
 
