@@ -4,7 +4,7 @@ The **_Republic of Azerbaijan_** is a country that lies in the crossroads of Eas
 
 ## Political Subdivisons
 
-Azerbaijan has 10 **first level administrative subdivisons** (adm1) and 79 **second level administrative subdivisons** (adm2), and the subdivsions **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
+Azerbaijan has 10 **first level administrative subdivisons** (adm1) and 79 **second level administrative subdivisons** (adm2), and the adm2s **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
 
 ![](Aze_Subdiv.png)
 
