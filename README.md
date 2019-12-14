@@ -10,7 +10,7 @@ Azerbaijan has 10 **first level administrative subdivisons** (adm1) and 79 **sec
 
 ###### (Note that in this plot and following desription the adm2 **_Lankaran District_** will be simplified as **_Lankaran_**.)
 
-It is worth mentioning that **_Lankaran_** consists of 2 parts, with penisulas and islands in the East, whose boundary is incorporated into the the adm2 boundary, and **_Lankaran City_** locates in the trapzoidal "gulf" on the Eastern boundary in the Southern part:
+It is worth mentioning that **_Lankaran_** consists of 2 parts, with penisulas and islands in the East, whose boundaries are incorporated into the the adm2 boundary, and **_Lankaran City_** locates in the trapzoidal "gulf" on the Eastern boundary in the Southern part:
 
 ![](Aze_Lankaran_Topo.png)
 
