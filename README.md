@@ -107,7 +107,7 @@ The calculation of the sum of the absolute values of the differences between eac
 
 ![](MdlRslt_Diff_Log&Mean&Sum.png)
 
-Based on the plots and the calculation, the **"Sums"** model is the least different from the actual population. However, with the total absolute difference up to 8,596,331 (8.60 million), the discrepancy is still too large for country with only about 10 million population. 
+In general, all models underestimate population in urban areas and overestimate in rural areas, suggesting a linear model might not be the best choice in such prediction. Among the three models, based on the plots and the calculation, the **"Sums"** model is the most accurate. However, with the total absolute difference up to 8,596,331 (8.60 million), the discrepancy is still too large for country with only about 10 million population. 
 
 Therefore, if more sophisticated model, which taking more variations into accout, are employed, the accuracy of prdiction might be improved. 
 
