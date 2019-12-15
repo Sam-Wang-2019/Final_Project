@@ -54,7 +54,7 @@ In addition, the correlation between **nighttime light** (NTL) and **population*
 
 ![](Aze_BrPlt_NTL-Dnsty.png)
 
-In the this plot, **"Logpop"** is also used for consistency and interpratability, and the similar shape of this overlay suggests positive correlationship between **density** and **NTL**. Besideds, this **overlay** seems to confirm the conclusion drawn from the former overlay, that populous adm2s might be generally large, while some adm2s covering smaller areas might produce very high density.
+In this plot, **"Logpop"** is also used for consistency and interpratability, and the similar shape of this overlay suggests positive correlationship between **density** and **NTL**. Besideds, this **overlay** seems to confirm the conclusion drawn from the former overlay, that populous adm2s might be generally large, while some adm2s covering smaller areas might produce very high density.
 
 ###  Models of Population and Distribution and Validation
 
