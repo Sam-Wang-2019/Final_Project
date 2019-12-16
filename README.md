@@ -64,7 +64,7 @@ To further investigate how population distribution is affected by various condit
 
 ![](Aze_Pop_Rsdl-....png)
 
-The plot shows a very wide **confidence interval** in the middle, indicating low accuracy. The reason for it is that all dots, except the one representing _Baku City_, cluster on the left side of the plot. Some of them are much higher in the plot than others, causing the **regression line** bowing upward in the middle.
+As can be seen the **R-Squared** of the plot is low, indicating high accuracy. However, the plot also has a very wide **confidence interval** in the middle, which implies that estimation could vary significantly. The reason for it is that all dots, except the one representing _Baku City_, cluster on the left side of the plot. Some of them are much higher in the plot than others, causing the **regression line** to bow upward in the middle.
 
 To summarize, the linear model does not seem to able to imply how the variables influence population distribution. Thus, the variables have complicated correlationships with population distribution and therefore more complex models could be used to diminish the errors. 
 
