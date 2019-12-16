@@ -116,7 +116,7 @@ The two Adm2s, based on _HDX_ data, have 216,384 (about 216 thousand) people in 
 
 Population and distribution of _Lankaran_ and the 3-dimensional version:
 
-![](Aze_Pop19_LEdited01.png)
+![](Aze_Pop19_LEdited01.jpg)
 
 ![](Aze_Pop19_L_3DEdited01.png)
 
