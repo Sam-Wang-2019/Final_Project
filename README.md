@@ -6,7 +6,7 @@ The **_Republic of Azerbaijan_** is a country that lies in the crossroads of Eas
 
 Azerbaijan has 10 **first level administrative subdivisons** (adm1) and 79 **second level administrative subdivisons** (adm2), and the adm2s **_Lankaran District_** and **_Lankaran City_** are located in the Southeast Corner of _Lankaran_ (adm1), which also lies in the Southeast of the country, on the West coast of Caspian Sea and bordering Iran, as is shown in the following plots:
 
-![](Aze_Subdiv.png)
+![](Aze_SubdivEdited01.png)
 
 ###### (Note that in this plot and following desription the adm2 **_Lankaran District_** will be simplified as **_Lankaran_**.)
 
@@ -22,13 +22,13 @@ In general, the administrative subdivisons of Azerbaijan are normally distribute
 
 According to data from _Humanitarian Data Exchange_ (HDX), the total population of Azerbaijan in **2019** (pop19) is 10,115,498 (about 10.12 million). And population distribution on adm2 level is presented in the following plot:
 
-![](Aze_Pop19_Adm201.png)
+![](Aze_Pop19_Adm201Edited01.png)
 
 The 3-dimensional versions:
 
-![](Aze_Pop19_3D01.png)
+![](Aze_Pop19_3D01Edited01.png)
 
-![](Aze_Pop19_3D02.png)
+![](Aze_Pop19_3D02Edited01.png)
 
 The population comparison on adm1 level and the the share of population of adm2s within each adm1:
 
@@ -74,7 +74,6 @@ In addition, linear models are used to predict the population nationwide as well
 
 ![](Aze_PpEst_Sum.png)
 
-
 "Means":
 
 ![](Aze_PpEst_Mean.png)
@@ -89,19 +88,19 @@ Differences of "Sums" ("Diffsums") and the 3-dimensional version:
 
 ![](Aze_Pop_EstDiff_Sum.png)
 
-![](Aze_Pop_EstDiff_Sum_3D.png)
+![](Aze_Pop_EstDiff_Sum_3DEdited01.png)
 
 Differences of "Means" ("Diffmeans") and the 3-dimensional version:
 
 ![](Aze_Pop_EstDiff_Mean.png)
 
-![](Aze_Pop_EstDiff_Mean_3D.png)
+![](Aze_Pop_EstDiff_Mean_3DEdited01.png)
 
 Differences of "Logpop" ("Difflogpop") and the 3-dimensional version:
 
 ![](Aze_Pop_EstDiff_Log.png)
 
-![](Aze_Pop_EstDiff_Log_3D.png)
+![](Aze_Pop_EstDiff_Log_3DEdited01.png)
 
 The calculation of the sum of the absolute values of the differences between each model and the acutal pop15:
 
@@ -117,15 +116,15 @@ The two Adm2s, based on _HDX_ data, have 216,384 (about 216 thousand) people in 
 
 Population and distribution of _Lankaran_ and the 3-dimensional version:
 
-![](Aze_Pop19_L.png)
+![](Aze_Pop19_LEdited01.png)
 
-![](Aze_Pop19_L_3D.png)
+![](Aze_Pop19_L_3DEdited01.png)
 
 Population and distribution of _Lankaran City_ and the 3-dimensional version:
 
-![](Aze_Pop19_LC.png)
+![](Aze_Pop19_LCEdited01.png)
 
-![](Aze_Pop19_LC_3D.png)
+![](Aze_Pop19_LC_3DEdited01.png)
 
 Population distribution of _Lankaran_ (based on satellite image):
 
